@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import datetime
 
 # Load dataset
-data = pd.read_csv('bike_df.csv')
+data = pd.read_csv('https://raw.githubusercontent.com/AhlanAlghiff/Daily-Bike-Sharing-Analysis-Dashboard/refs/heads/master/dashboard/bike_df.csv')
 
 # Data preprocessing
 data['dteday'] = pd.to_datetime(data['dteday'])
